@@ -1,0 +1,6 @@
+C:\DotNet\TGClothes\Common\bin\Release\Common.dll
+C:\DotNet\TGClothes\Common\bin\Release\Common.pdb
+C:\DotNet\TGClothes\Common\obj\Release\Common.csproj.AssemblyReference.cache
+C:\DotNet\TGClothes\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\DotNet\TGClothes\Common\obj\Release\Common.dll
+C:\DotNet\TGClothes\Common\obj\Release\Common.pdb

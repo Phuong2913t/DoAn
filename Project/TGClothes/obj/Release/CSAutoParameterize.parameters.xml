@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="TGClothesDbContext-Web.config Connection String" description="TGClothesDbContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=SQL5080.site4now.net;Initial Catalog=db_aa2bad_tunaclothes;User Id=db_aa2bad_tunaclothes_admin;Password=Tuan100301" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\DotNet\\TGClothes\\TGClothes\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TGClothesDbContext']/@connectionString" />
+  </parameter>
+</parameters>

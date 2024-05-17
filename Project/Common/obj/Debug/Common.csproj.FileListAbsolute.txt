@@ -1,0 +1,14 @@
+D:\DoAnTotNghiepBackUp\TGClothes\Common\bin\Debug\Common.dll
+D:\DoAnTotNghiepBackUp\TGClothes\Common\bin\Debug\Common.pdb
+D:\DoAnTotNghiepBackUp\TGClothes\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\DoAnTotNghiepBackUp\TGClothes\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\DoAnTotNghiepBackUp\TGClothes\Common\obj\Debug\Common.dll
+D:\DoAnTotNghiepBackUp\TGClothes\Common\obj\Debug\Common.pdb
+C:\DotNet\TGClothes\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\DotNet\TGClothes\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\DotNet\TGClothes\Common\obj\Debug\Common.dll
+C:\DotNet\TGClothes\Common\obj\Debug\Common.pdb
+C:\DotNet\TGClothes\Common\bin\Debug\Common.dll
+C:\DotNet\TGClothes\Common\bin\Debug\Common.pdb
+C:\DotNet\TGClothes\Common\bin\Debug\System.ComponentModel.Annotations.dll
+C:\DotNet\TGClothes\Common\obj\Debug\Common.csproj.CopyComplete

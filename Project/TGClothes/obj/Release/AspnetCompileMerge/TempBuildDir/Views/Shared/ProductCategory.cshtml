@@ -1,0 +1,27 @@
+﻿@model List<Data.EF.ProductCategory>
+
+<div class="flex-w flex-l-m filter-tope-group m-tb-10">
+    @foreach (var item in Model.Where(x => x.ParentId == null).OrderBy(x => x.DisplayOrder))
+    {
+        var child = Model.Where(x => x.ParentId == item.Id).OrderBy(x => x.Name);
+        var parentClass = child.Count() > 0 ? "data-toggle=dropdown" : "";
+        <div class="dropdownver2">
+            <a href="/san-pham/@item.MetaTitle-@item.Id" class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" @parentClass data-filter="*">
+                @item.Name
+            </a>
+            @if (child.Count() > 0)
+            {
+                <ul class="dropdown-menu" style="min-width: 200px; height: 360px; overflow-y: auto;">
+                    @foreach (var childItem in child)
+                    {
+                        <li class="p-all-8 dropdown-item">
+                            <a href="/san-pham/@childItem.MetaTitle-@childItem.Id" class="stext-106 cl6 hov1 bor3 trans-04 m-tb-5">
+                                @childItem.Name
+                            </a>
+                        </li>
+                    }
+                </ul>
+            }
+        </div>
+    }
+</div>
