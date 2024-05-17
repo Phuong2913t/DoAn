@@ -99,15 +99,23 @@ namespace TGClothes.Controllers
             if (ModelState.IsValid)
             {
                 var result = _userService.LoginByEmail(model.Email, Encryptor.MD5Hash(model.Password), false);
+
                 if (result == 1)
                 {
                     var user = _userService.GetUserByEmail(model.Email);
-                    var userSession = new UserLogin();
-                    userSession.Email = user.Email;
-                    userSession.Name = user.Name;
-                    userSession.UserId = user.Id;
-                    Session.Add(CommonConstants.USER_SESSION, userSession);
-
+                    if (user != null)
+                    {
+                         
+                        var userSession = new UserLogin();
+                        userSession.Email = user.Email;
+                        userSession.Name = user.Name;
+                        userSession.UserId = user.Id;
+                        Session.Add(CommonConstants.USER_SESSION, userSession);
+                        if (user.GroupId == Common.CommonConstants.ADMIN_GROUP)
+                        {
+                            return Redirect("/admin/home");
+                        }
+                    }
                     return Redirect("/");
                 }
                 else if (result == 0)
@@ -130,6 +138,9 @@ namespace TGClothes.Controllers
                 {
                     ModelState.AddModelError("", "Đăng nhập thất bại.");
                 }
+
+
+
             }
             return View(model);
         }
