@@ -3367,6 +3367,7 @@
     <Content Include="Assets\Client\images\icons\icon-prev.png" />
     <Content Include="Assets\Client\images\icons\icon-vnpay.png" />
     <Content Include="Assets\Client\images\icons\logo-01.png" />
+    <Content Include="Assets\Client\images\icons\logo.png" />
     <Content Include="Assets\Client\images\icons\pin.png" />
     <Content Include="Assets\Client\images\item-cart-01.jpg" />
     <Content Include="Assets\Client\images\item-cart-02.jpg" />
